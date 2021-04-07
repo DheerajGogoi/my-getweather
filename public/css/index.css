@@ -1,0 +1,301 @@
+/* GOOGLE FONTS START */
+/* font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Sarabun', sans-serif; */
+
+
+/* GOOGLE FONTS END */
+/* BODY START */
+body {
+    background: url(https://images.pexels.com/photos/3801516/pexels-photo-3801516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.other-nav{
+    display: none;
+}
+/* BODY END */
+
+/* NAVBAR START */
+
+/* change the background color */
+.navbar-custom {
+    background-color: #1f232d;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+.navbar-brand{
+    
+}
+.brand-badge{
+    background-color: yellow;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+.fa-search{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1.1%;
+}
+.today{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(219, 219, 108);
+    font-family: 'Raleway', sans-serif;
+}
+
+.enter-city{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0;
+    color: white;
+}
+.enter-city:focus{
+    background: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.enter-city::placeholder {
+    color: rgba(255,255,255, 0.6);
+    font-family: 'Raleway', sans-serif;
+}
+/* NAVBAR END */
+
+/* OTHER NAV START */
+.other-nav{
+    text-align: center;
+    align-items: center;
+    padding: 3%;
+}
+.my-search{
+    width: 19rem;
+    height: 3rem;
+}
+/* OTHER NAV END */
+
+/* WEATHER CARD START */
+.content-section{
+    padding-top: 1.7%;
+}
+.weather-card{
+    /* width: 50rem; */
+    height: 35.5rem;
+}
+.card{
+    height: 100%;
+    background: rgb(0,0,0, 0.5);
+    padding: 1.5%;
+    
+}
+
+.city-name{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.weather-img{
+    align-items: center;
+}
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Alef', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'New Tegomin', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Slabo 27px', serif;
+font-family: 'Yatra One', cursive; */
+
+.temp{
+    font-size: 5.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+}
+.weather-type{
+    font-size: 2.1rem;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+.other{
+    text-align: center;
+}
+.day-type{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 6%;
+}
+.min-max{
+    margin-top: 2%;
+}
+.bw{
+    color: white;
+    font-size: 1.5rem;
+    /* opacity: 0.6; */
+    font-family: 'Raleway', sans-serif;
+}
+.max-temp, .min-temp{
+    color: white;
+    font-size: 1.2rem;
+    /* opacity: 0.6; */
+    font-family: 'Raleway', sans-serif;
+}
+.weather-img-box{
+    background: rgb(248, 234, 103);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.other-card{
+    text-align: center;
+    padding: 0;
+}
+.wind-speed, .pressure-amount, .humidity-amount, .visibility-amount{
+    color: white;
+    padding: 2%;
+}
+
+.fa-wind, .fa-thermometer-half, .fa-tint, .fa-percentage{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 1.2%;
+}
+.value-name{
+    font-family: 'Raleway', sans-serif;
+}
+.value{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: rgb(177, 177, 101);
+}
+/* WEATHER CARD END */
+/* CREDIT START */
+.about{
+    padding-top: 1.4%;
+}
+.credit{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.credit-font{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.connect{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.fab{
+    padding-right: 1.3%;
+}
+.fa-linkedin, .fa-github{
+    transition: 0.4s ease all;
+    cursor: pointer;
+    color: white;
+}
+.fa-linkedin:hover{
+    color: yellow;
+}
+.fa-github:hover{
+    color: yellow;
+}
+/* CREDIT END */
+
+/* FORM START */
+.btn:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.form-control:focus{
+    outline: none;
+}
+/* FORM END */
+
+/* ERROR START  */
+.error{
+    background: rgb(0,0,0, 0.5);
+    height: 35rem;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.error-text{
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.search{
+    padding: 5%;
+}
+/* ERROR END  */
+.bord{
+    border: 3px solid white;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 991px){
+    .navbar{
+        display: none;
+    }
+    .other-nav{
+        display: block;
+    }
+    .enter-city{
+        width: 15rem;
+    }
+}
+
+@media only screen and (min-width: 768px and max-width: 769px){
+    
+    .my-search{
+        width: 16.5rem;
+    }
+}

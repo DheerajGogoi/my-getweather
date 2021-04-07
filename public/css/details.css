@@ -1,0 +1,31 @@
+/* WEATHER CONTAINER START */
+.weather-details{
+    padding: 2%;
+}
+.weather-box{
+    /* padding: 2%; */
+}
+.pic-container{
+    background: blue;
+    height: 300px;
+}
+.forcast-container{
+    background: yellow;
+    height: 300px;
+}
+.extra-container{
+    background: red;
+    height: 300px;
+}
+
+.weather-data{
+    height: 300px;
+}
+.weather-place{
+    height: 300px;
+}
+
+/* WEATHER CONTAINER END */
+.borderb{
+    border: 2px solid black;
+}
